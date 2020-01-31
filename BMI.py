@@ -1,11 +1,12 @@
 # this is a program to calculate a persons BMI 
 
-weight = float (input("enter weight"))
-height = float (input("enter height"))
+weight = float (input("enter weight kg:"))
+height = float (input("enter height cm:"))
 
-#height in cm
+
 #weight in kg
-
-BMI = weight / height
-
+#height in cm
+heightsquared = (height*height)
+#BMI = weight / height in m2
+BMI= weight / (height **2)
 print("your BMI is",BMI)
