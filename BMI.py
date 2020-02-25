@@ -6,7 +6,7 @@ height = float (input("enter height cm:"))
 
 #weight in kg
 #height in cm
-heightsquared = (height*height)
+heightcmtom = (height/100)
 #BMI = weight / height in m2
-BMI= weight / (height **2)
-print("your BMI is",BMI)
+BMI= weight / (heightcmtom **2)
+print("your BMI is", BMI)
