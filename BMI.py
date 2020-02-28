@@ -8,5 +8,5 @@ height = float (input("enter height cm:")) # asks user to input height as a floa
 #height in cm
 heightcmtom = (height/100)
 #BMI = weight / height in m2
-BMI= weight / (heightcmtom **2)
+BMI= weight / (heightcmtom **2) # raises to the power of 2 for m2
 print("your BMI is", BMI) # output string text and BMI result
