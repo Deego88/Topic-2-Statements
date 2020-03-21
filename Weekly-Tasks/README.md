@@ -1,6 +1,6 @@
 # pands-problems
 This is a program to calculate a persons BMI 
-We need to collect two forms of input form the user to make teh BMI calculation:
+We need to collect two forms of input form the user to make the BMI calculation:
 1- weight in kg
 2- height in cm
 both are floating point numbers.
